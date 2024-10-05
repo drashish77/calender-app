@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "name": "Solar panels N-Type TOPCon Bifacial DCR Bifacial halfcut Non DCR Bifacial halfcut Mono Perc Half cut",
+    "price": 29.99,
+    "color": "White",
+    "size": "M",
+    "material": "100% Cotton",
+    "description": "Gupta Solars Mono Perc Half Cut Shark 455Wp, 24V PV Module",
+    "images": [
+      "https://images.pexels.com/photos/9875441/pexels-photo-9875441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/9875405/pexels-photo-9875405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/9875445/pexels-photo-9875445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Solar Lights",
+    "price": 29.99,
+    "color": "White",
+    "size": "M",
+    "material": "100% Cotton",
+    "description": "Gupta Solars Mono Perc Half Cut Shark 455Wp, 24V PV Module",
+    "images": [
+      "/products/light1.webp",
+      "/products/light2.jpeg",
+      "/products/light4.jpeg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Solar Inverters",
+    "price": 29.99,
+    "color": "White",
+    "size": "M",
+    "material": "100% Cotton",
+    "description": "Gupta Solars Mono Perc Half Cut Shark 455Wp, 24V PV Module",
+    "images": [
+      "/products/inverter1.png",
+      "/products/inverter2.jpg",
+      "/products/inverter2.png"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Mounting structure",
+    "price": 29.99,
+    "color": "White",
+    "size": "M",
+    "material": "100% Cotton",
+    "description": "Gupta Solars Mono Perc Half Cut Shark 455Wp, 24V PV Module",
+    "images": [
+      "/products/mount/1.png",
+      "/products/mount/2.png",
+      "/products/mount/3.png",
+      "/products/mount/4.png",
+      "/products/mount/5.jpg"
+    ]
+  }
+]

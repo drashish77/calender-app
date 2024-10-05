@@ -11,8 +11,14 @@ const Header = () => {
   return (
     <nav className="flex justify-between px-5 mx-auto py-2 items-center shadow-md border-b-2">
       <Link href="/">
-        <div className="relative h-10 w-40">
-          <Image src="/logo.svg" alt="logo" layout="fill" objectFit="contain" />
+        <div className="relative h-14 w-40">
+          <Image
+            src="/log.svg"
+            alt="logo"
+            layout="fill"
+            objectFit="cover"
+            className=""
+          />
         </div>
       </Link>
       <div className="flex items-center gap-4">

@@ -1,5 +1,10 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+import KeyFeatures from "@/components/keyFeatures";
+import { Testimonial } from "@/components/testimonial";
+import { HowItWorks } from "@/components/howitworks";
 
 export default function Home() {
   return (
@@ -13,6 +18,11 @@ export default function Home() {
             Our scheduler help you manage your time effectively, create events,
             set your availibility, and let other book time with you seamlessly.
           </p>
+          <Link href={"dashboard"}>
+            <Button size="lg" className="text-lg">
+              Get Started <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </Link>
         </div>
         <div className="lg:w-1/2">
           <div className="relative w-full aspect-square max-w-md">
@@ -25,6 +35,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <KeyFeatures />
+      <Testimonial />
+      <HowItWorks />
     </main>
   );
 }
